@@ -1,0 +1,261 @@
+@import "compass/css3";
+
+//-----------------------------------------------
+// The following html5-boilerplate styles should
+// probably be customized for each site
+//-----------------------------------------------
+body, select, input, textarea {
+  color: $font-color;
+  // Set your base font here, to apply evenly
+  // font-family: Georgia, serif;
+}
+
+//-----------------------------------
+// Add your own custom styles below
+//-----------------------------------
+
+
+$base-color: #6c4528;
+$roof-color: #ac754e;
+$trim-color: #051316;
+$window-trim-color: #051316;
+
+html {
+  height: 100%;
+  background: #342e3d;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  padding: 50px 0px;
+  overflow-y: hidden;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.moon {
+  width: 80px;
+  height: 80px;
+  background: #e3e3e3;
+  position: fixed;
+  left: 60px;
+  top: 60px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 50px #e3e3e3;
+}
+
+#ground {
+  position: fixed;
+  width: 9000px;
+  height: 40px;
+  background: #333333;
+  border-top: 6px solid #626131;
+  bottom: 0px;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  position: absolute;
+  bottom: -5px;
+  padding: 45px;
+}
+
+.skyscraper {
+  .window {
+    &:before, &:after {
+      display: none;
+    }
+  }
+}
+
+.slot {
+  float: left;
+  margin-right: 50px;
+  position: relative;
+  height: 100%;
+  width: 200px;
+}
+
+.home {
+  width: 200px;
+  float: left;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+
+  &.modern-black {
+    .floor {
+      background: #2b2a28;
+    }
+    .trim {
+      background: #41403e;
+      &:before, &:after {
+        background: black;
+      }
+    }
+    .roof {
+      background: #41403e;
+    }
+  }
+
+  &.modern-gray {
+    .floor {
+      background: #96928f;
+    }
+    .trim {
+      background: #41403e;
+      &:before, &:after {
+        background: black;
+      }
+    }
+    .roof {
+      background: #41403e;
+    }
+  }
+
+  .half {
+    width: 50% !important;
+    margin: 0 !important;
+  }
+
+  .level {
+    width: 100%;
+    min-height: 6px;
+    clear: both;
+    &.top {
+      height: 6px;
+    }
+    &.ground {
+      width: 1000%;
+      margin-left: -10%;
+      height: 6px;
+      background: #716334;
+      border-bottom: 10px solid #4c2c13;
+      margin-top: 0px;
+      box-sizing: content-box;
+    }
+    &.connect {
+      height: auto;
+    }
+  }
+  .roof {
+    width: 110%;
+    margin-left: -5%;
+    height: 6px;
+    background: $roof-color;
+    float: left;
+    box-shadow: 1px 1px 5px #111111;
+  }
+
+  .floor {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: $base-color;
+    position: relative;
+    border-bottom: none;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  .trim {
+    &:before {
+      content: '';
+      height: 6px;
+      width: 100%;
+      background: #925c3a;
+      position: absolute;
+      top: -5px;
+      left: 2px;
+      display: block;
+      box-shadow: 1px 1px 5px #111111;
+    }
+    &:after {
+      content: '';
+      height: 6px;
+      width: 100%;
+      background: #925c3a;
+      display: block;
+      position: absolute;
+      bottom: -5px;
+      left: 2px;
+      box-shadow: 1px 1px 5px #111111;
+    }
+    margin-left: -6%;
+    width: 110%;
+    background: #ac754e;
+    height: 15px;
+    position: relative;
+    z-index: 100;
+    margin-top: 5px;
+  }
+
+  .window {
+    background: #4b515a;
+    border: 2px solid $window-trim-color;
+    float: right;
+    height: 90%;
+    margin-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    z-index: 100;
+
+    &.on {
+      background: #dfb03f;
+      box-shadow: 1px 1px 100px #dfb03f;
+    }
+    &:before {
+      position: absolute;
+      top: 30%;
+      height: 3px;
+      width: 100%;
+      content: '';
+      background: black;
+    }
+
+    &:after {
+      position: absolute;
+      top: 30%;
+      left: -5%;
+      height: 3px;
+      width: 50%;
+      content: '';
+      background: black;
+      transform: rotate(90deg);
+    }
+  }
+
+  .balcony {
+    width: 50%;
+    float: left;
+    height: 25px;
+    background: #a4c6df;
+    opacity: 0.7;
+    margin-top: 25px;
+    border-right: 3px solid #59351d;
+    border-top: 3px solid #59351d;
+  }
+}
+
+.garage {
+  float: left;
+  background: #321c0f;
+  width: 80px;
+  height: 58px;
+  margin-top: 50px;
+  border: 5px solid #d4c6bd;
+  padding: 5px;
+
+  .door {
+    width: 100%;
+    height: 100%;
+    background: #573319;
+  }
+}

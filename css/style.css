@@ -1,0 +1,745 @@
+/* line 22, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 38, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 48, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 55, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 77, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+html {
+  background: #fff;
+  color: #000;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 88, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/* line 98, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 113, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 118, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 132, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 137, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+/* line 142, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 147, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 152, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+/* line 157, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0;
+}
+
+/* line 163, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 168, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 173, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 178, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 184, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 191, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 197, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+p,
+pre {
+  margin: 1em 0;
+}
+
+/* line 203, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* line 213, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 220, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+q {
+  quotes: none;
+}
+
+/* line 225, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 232, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 237, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 245, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 249, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 260, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+/* line 267, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 272, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/* line 279, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* line 293, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 299, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 310, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 321, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+form {
+  margin: 0;
+}
+
+/* line 326, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 335, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+/* line 346, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 358, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 367, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 379, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible;
+}
+
+/* line 389, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 398, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+/* line 409, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 418, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 424, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 432, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 444, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 7, ../sass/partials/_page.scss */
+body, select, input, textarea {
+  color: #222;
+}
+
+/* line 23, ../sass/partials/_page.scss */
+html {
+  height: 100%;
+  background: #342e3d;
+}
+
+/* line 27, ../sass/partials/_page.scss */
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  padding: 50px 0px;
+  overflow-y: hidden;
+}
+
+/* line 35, ../sass/partials/_page.scss */
+div {
+  box-sizing: border-box;
+}
+
+/* line 39, ../sass/partials/_page.scss */
+.moon {
+  width: 80px;
+  height: 80px;
+  background: #e3e3e3;
+  position: fixed;
+  left: 60px;
+  top: 60px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 50px #e3e3e3;
+}
+
+/* line 50, ../sass/partials/_page.scss */
+#ground {
+  position: fixed;
+  width: 9000px;
+  height: 40px;
+  background: #333333;
+  border-top: 6px solid #626131;
+  bottom: 0px;
+}
+
+/* line 59, ../sass/partials/_page.scss */
+#container {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  position: absolute;
+  bottom: -5px;
+  padding: 45px;
+}
+
+/* line 70, ../sass/partials/_page.scss */
+.skyscraper .window:before, .skyscraper .window:after {
+  display: none;
+}
+
+/* line 76, ../sass/partials/_page.scss */
+.slot {
+  float: left;
+  margin-right: 50px;
+  position: relative;
+  height: 100%;
+  width: 200px;
+}
+
+/* line 84, ../sass/partials/_page.scss */
+.home {
+  width: 200px;
+  float: left;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+}
+/* line 92, ../sass/partials/_page.scss */
+.home.modern-black .floor {
+  background: #2b2a28;
+}
+/* line 95, ../sass/partials/_page.scss */
+.home.modern-black .trim {
+  background: #41403e;
+}
+/* line 97, ../sass/partials/_page.scss */
+.home.modern-black .trim:before, .home.modern-black .trim:after {
+  background: black;
+}
+/* line 101, ../sass/partials/_page.scss */
+.home.modern-black .roof {
+  background: #41403e;
+}
+/* line 107, ../sass/partials/_page.scss */
+.home.modern-gray .floor {
+  background: #96928f;
+}
+/* line 110, ../sass/partials/_page.scss */
+.home.modern-gray .trim {
+  background: #41403e;
+}
+/* line 112, ../sass/partials/_page.scss */
+.home.modern-gray .trim:before, .home.modern-gray .trim:after {
+  background: black;
+}
+/* line 116, ../sass/partials/_page.scss */
+.home.modern-gray .roof {
+  background: #41403e;
+}
+/* line 121, ../sass/partials/_page.scss */
+.home .half {
+  width: 50% !important;
+  margin: 0 !important;
+}
+/* line 126, ../sass/partials/_page.scss */
+.home .level {
+  width: 100%;
+  min-height: 6px;
+  clear: both;
+}
+/* line 130, ../sass/partials/_page.scss */
+.home .level.top {
+  height: 6px;
+}
+/* line 133, ../sass/partials/_page.scss */
+.home .level.ground {
+  width: 1000%;
+  margin-left: -10%;
+  height: 6px;
+  background: #716334;
+  border-bottom: 10px solid #4c2c13;
+  margin-top: 0px;
+  box-sizing: content-box;
+}
+/* line 142, ../sass/partials/_page.scss */
+.home .level.connect {
+  height: auto;
+}
+/* line 146, ../sass/partials/_page.scss */
+.home .roof {
+  width: 110%;
+  margin-left: -5%;
+  height: 6px;
+  background: #ac754e;
+  float: left;
+  box-shadow: 1px 1px 5px #111111;
+}
+/* line 155, ../sass/partials/_page.scss */
+.home .floor {
+  width: 100%;
+  height: 50px;
+  float: left;
+  background: #6c4528;
+  position: relative;
+  border-bottom: none;
+  box-sizing: border-box;
+  padding: 5px;
+}
+/* line 166, ../sass/partials/_page.scss */
+.home .trim {
+  margin-left: -6%;
+  width: 110%;
+  background: #ac754e;
+  height: 15px;
+  position: relative;
+  z-index: 100;
+  margin-top: 5px;
+}
+/* line 167, ../sass/partials/_page.scss */
+.home .trim:before {
+  content: '';
+  height: 6px;
+  width: 100%;
+  background: #925c3a;
+  position: absolute;
+  top: -5px;
+  left: 2px;
+  display: block;
+  box-shadow: 1px 1px 5px #111111;
+}
+/* line 178, ../sass/partials/_page.scss */
+.home .trim:after {
+  content: '';
+  height: 6px;
+  width: 100%;
+  background: #925c3a;
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  left: 2px;
+  box-shadow: 1px 1px 5px #111111;
+}
+/* line 198, ../sass/partials/_page.scss */
+.home .window {
+  background: #4b515a;
+  border: 2px solid #051316;
+  float: right;
+  height: 90%;
+  margin-left: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  z-index: 100;
+}
+/* line 210, ../sass/partials/_page.scss */
+.home .window.on {
+  background: #dfb03f;
+  box-shadow: 1px 1px 100px #dfb03f;
+}
+/* line 214, ../sass/partials/_page.scss */
+.home .window:before {
+  position: absolute;
+  top: 30%;
+  height: 3px;
+  width: 100%;
+  content: '';
+  background: black;
+}
+/* line 223, ../sass/partials/_page.scss */
+.home .window:after {
+  position: absolute;
+  top: 30%;
+  left: -5%;
+  height: 3px;
+  width: 50%;
+  content: '';
+  background: black;
+  transform: rotate(90deg);
+}
+/* line 235, ../sass/partials/_page.scss */
+.home .balcony {
+  width: 50%;
+  float: left;
+  height: 25px;
+  background: #a4c6df;
+  opacity: 0.7;
+  margin-top: 25px;
+  border-right: 3px solid #59351d;
+  border-top: 3px solid #59351d;
+}
+
+/* line 247, ../sass/partials/_page.scss */
+.garage {
+  float: left;
+  background: #321c0f;
+  width: 80px;
+  height: 58px;
+  margin-top: 50px;
+  border: 5px solid #d4c6bd;
+  padding: 5px;
+}
+/* line 256, ../sass/partials/_page.scss */
+.garage .door {
+  width: 100%;
+  height: 100%;
+  background: #573319;
+}
+
+/* line 7, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+/* line 27, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* line 9, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 11, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* line 66, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 13, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 92, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 98, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.clearfix:after {
+  clear: both;
+}
+/* line 104, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+}
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+}
+@media print {
+  /* line 11, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 18, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 23, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 27, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 35, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 41, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 47, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 51, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 56, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+  }
+  /* line 64, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 71, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  /* Style adjustments for print go here */
+}
